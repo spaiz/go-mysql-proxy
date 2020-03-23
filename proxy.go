@@ -20,6 +20,7 @@ type Proxy struct {
 }
 
 func (r *Proxy) Start(port string) error {
+	log.Printf("Start listening on: %s", port)
 	ln, err := net.Listen("tcp", fmt.Sprintf(":%s", port))
 	if err != nil {
 		return err
