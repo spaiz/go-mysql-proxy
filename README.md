@@ -5,6 +5,8 @@ This repository is a result of series of the articles `Writing MySQL Proxy` that
 
 Currently the very first step has been implemented. And it's a genereal very simple TCP Proxy.
 
+go version go1.12.9
+
 To try it, just clone, and run:
 
 ```
