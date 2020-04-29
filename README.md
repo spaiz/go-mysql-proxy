@@ -7,13 +7,13 @@ This repository is a result of writing serie of articles `Writing MySQL Proxy` t
 The main goal is to learn the MySQL Protocol by implementing it.
 
 The plan:
-- [ ] Implement TCP Proxy as a starting point
+- [x] Implement TCP Proxy as a starting point
 - [ ] Implement state machine
 - [ ] Implement query/query data buffering
 - [ ] Implement plugins
 
 Packets decode/encode todo:
-- [ ] Handshake Packet
+- [x] Handshake Packet
 - [ ] Authorization Packet
 
 
